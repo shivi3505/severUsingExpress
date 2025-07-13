@@ -4,8 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon customMiddleware/app.js",
-    "start-route":"nodemon routesTask/routes.js"
+    
+    "start":"nodemon routesTask/unknown-route.js"
+    
+
   },
   "keywords": [],
   "author": "",

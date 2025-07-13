@@ -6,7 +6,7 @@ app.get('/orders',(req,res)=>{
     res.send(`<h1>Here is the list of all orders</h1>`)
 })
 
-app.post('orders',(req,res)=>{
+app.post('/orders',(req,res)=>{
     res.send(`<h1>A new order has been created</h1>`);
 })
 app.get('/users',(req,res)=>{
