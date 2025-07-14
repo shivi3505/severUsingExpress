@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     
-    "start":"nodemon routesTask/unknown-route.js"
-    
+    "start":"nodemon routesTask/unknown-route.js",
+    "start-dynamicroute": "nodemon dynamicRouting/app.js"
 
   },
   "keywords": [],

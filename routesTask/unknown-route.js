@@ -15,7 +15,7 @@ app.get('/categories',(req,res)=>{
 app.post('/categories',(req,res)=>{
     res.send(`<h1>A new category has been added</h1>`)
 });
-app.use('*',(req,res)=>{
+app.use((req,res)=>{
     res.status(404).send(`<h1>404 - Page Not Found</h1>`);
 });
 app.listen(4000,()=>{
