@@ -7,7 +7,8 @@
     
     "start":"nodemon routesTask/unknown-route.js",
     "start-dynamicroute": "nodemon dynamicRouting/app.js",
-    "start-midlog": "nodemon middlewareForlogin/app.js"
+    "start-midlog": "nodemon middlewareForlogin/app.js",
+    "start-library": "nodemon libraryManagementSystem/app.js"
   },
   "keywords": [],
   "author": "",
